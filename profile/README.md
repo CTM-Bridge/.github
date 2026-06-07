@@ -79,6 +79,13 @@ So adding a controller is mostly *reverse-engineer it and write a map*.
 | [**ctm-bridge-webos**](https://github.com/CTM-Bridge/ctm-bridge-webos) | TV (webOS) | Bridge core: HID capture, USB↔Bluetooth reinterpretation, per-controller translation, zero-config agent discovery, USB/IP client. |
 | [**CTM-USBIP**](https://github.com/CTM-Bridge/CTM-USBIP) | Host (Windows / Linux) | Host agent: advertises on the LAN, accepts the bridged controller, re-exposes it via `usbip-win2`. |
 
+## Support
+
+If CTM Bridge saved you some hassle — or you just think it's cool — you can fuel
+the late-night reverse engineering:
+
+[![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/ciprianteodormisaila)
+
 ## Credits
 
 - **[usbip-win2](https://github.com/vadimgrn/usbip-win2)** by Vadym Hrynchyshyn — the WHQL-signed USB/IP client driver this builds on.
